@@ -1,6 +1,6 @@
 # Relayer Engine
 
-Specify how to relay wormhole messages for your app using an idiomatic an express/koa middleware inspired api and let the library handle all the details!
+Specify how to relay wormhole messages for your app using an idiomatic an express/koa middleware-inspired api and let the library handle all the details!
 
 Checkout the [example app](./example-app) or check out the [quickstart](#quick-start)
 
@@ -47,7 +47,7 @@ import { CHAIN_ID_SOLANA } from "@certusone/wormhole-sdk";
 
 ### Minimal Processes to track the VAAs
 
-:memo: These proceses must be running in order for the code above to work
+:memo: These processes must be running in order for the code above to work
 
 **Wormhole Network Spy**
 
@@ -91,9 +91,9 @@ docker run --rm -p 6379:6379 --name redis-docker -d redis
 
 Make it easy to write the off-chain component of a wormhole cross-chain app (aka [xDapp](https://book.wormhole.com/dapps/4_whatIsanXdapp.html)).
 
-An xDapp developer can write their app specific logic for filtering what wormhole messages they care about, how to parse custom payloads and what actions to take on chain (or across many chains!).
+An xDapp developer can write their app-specific logic for filtering what wormhole messages they care about, how to parse custom payloads and what actions to take on chain (or across many chains!).
 
-The Goal is to create a project that is:
+The goal is to create a project that is:
 
 - Immediately intuitive
 - Idiomatic
